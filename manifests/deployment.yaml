@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: go_echo
+  name: goecho
   labels:
-    app: go_echo
+    app: goecho
   namespace: default
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: go_echo
+      app: goecho
   template:
     metadata:
       labels:
-        app: go_echo
+        app: goecho
     spec:
       containers:
-        - name: go_echo
+        - name: goecho
           image: acrworkflow1709443935437.azurecr.io/image-workflow-1710623247432:latest
           ports:
             - containerPort: 80
