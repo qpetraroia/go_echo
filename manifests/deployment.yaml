@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: go_echo
-          image: acrworkflow1709443935437.azurecr.io/image-workflow-1710622783201:latest
+          image: acrworkflow1709443935437.azurecr.io/image-workflow-1710623247432:latest
           ports:
             - containerPort: 80
