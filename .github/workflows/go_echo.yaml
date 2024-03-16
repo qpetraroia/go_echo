@@ -9,7 +9,7 @@ env:
     AZURE_CONTAINER_REGISTRY: acrworkflow1709443935437
     CLUSTER_NAME: safeguards-test
     CLUSTER_RESOURCE_GROUP: deployment-safeguards-test-RG
-    CONTAINER_NAME: image-workflow-1710622783201
+    CONTAINER_NAME: image-workflow-1710623247432
     DEPLOYMENT_MANIFEST_PATH: |
         manifests/deployment.yaml
         manifests/service.yaml
